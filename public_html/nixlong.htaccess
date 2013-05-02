@@ -1,0 +1,36 @@
+<files .htaccess>
+order allow,deny
+deny from all
+</files>
+
+<Directory /wp-admin>
+ErrorDocument 404 "Sorry the page you access is not exist"
+</Directory>
+
+# disable directory browsing
+Options All -Indexes
+
+#hide server signature
+ServerSignature Off
+
+# limit file uploads to 10mb
+LimitRequestBody 10240000
+
+#disable hotlinking of images
+RewriteEngine on
+RewriteCond %{HTTP_REFERER} !^$
+RewriteCond %{HTTP_REFERER} !^http://(www\.)?nixlong.com/.*$ [NC]
+#RewriteRule \.(gif|jpg|png)$ http://www.nixlong.com/stealingisbad.gif [R,L]
+
+RewriteEngine On
+RewriteCond %{REQUEST_METHOD} POST
+RewriteCond %{REQUEST_URI} .wp-comments-post\.php*
+RewriteCond %{HTTP_REFERER} !.*nixlong.com.* [OR]
+RewriteCond %{HTTP_USER_AGENT} ^$
+RewriteRule (.*) ^http://%{REMOTE_ADDR}/$ [R=301,L]
+
+# protect wp-config.php
+<Files wp-config.php>
+Order Deny,Allow
+Deny from All
+</Files>

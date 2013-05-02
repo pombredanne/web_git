@@ -1,0 +1,447 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: neutral\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-03-18 00:22+0900\n"
+"PO-Revision-Date: \n"
+"Last-Translator: mono-lab <mail@mono-lab.net>\n"
+"Language-Team: monolab <mail@monolab.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Japanese\n"
+"X-Poedit-Country: JAPAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: I:\\xampplite\\htdocs\\neutral\n"
+"X-Poedit-SearchPath-0: wp-content\\themes\\neutral\n"
+
+#: wp-content\themes\neutral/404.php:7
+msgid "Error 404 Not Found."
+msgstr ""
+
+#: wp-content\themes\neutral/archive.php:10
+#, php-format
+msgid "Archive for the &#8216;<span id=\"keyword\"> %s </span>&#8217; Category"
+msgstr ""
+
+#: wp-content\themes\neutral/archive.php:13
+#, php-format
+msgid "Posts Tagged &#8216;<span id=\"keyword\"> %s </span>&#8217;"
+msgstr ""
+
+#: wp-content\themes\neutral/archive.php:16
+#: wp-content\themes\neutral/archive.php:19
+#: wp-content\themes\neutral/archive.php:22
+#, php-format
+msgid "Archive for &#8216;<span id=\"keyword\"> %s </span>&#8217;"
+msgstr ""
+
+#: wp-content\themes\neutral/archive.php:16
+#: wp-content\themes\neutral/archive.php:37
+#: wp-content\themes\neutral/comments.php:116
+#: wp-content\themes\neutral/functions.php:354
+#: wp-content\themes\neutral/index.php:10
+#: wp-content\themes\neutral/page-nocomment.php:17
+#: wp-content\themes\neutral/page-noside-nocomment.php:16
+#: wp-content\themes\neutral/page-noside.php:16
+#: wp-content\themes\neutral/page.php:12
+msgid "F jS, Y"
+msgstr ""
+
+#: wp-content\themes\neutral/archive.php:19
+msgid "F, Y"
+msgstr ""
+
+#: wp-content\themes\neutral/archive.php:22
+msgid "Y"
+msgstr ""
+
+#: wp-content\themes\neutral/archive.php:25
+msgid "Author Archive"
+msgstr ""
+
+#: wp-content\themes\neutral/archive.php:28
+msgid "Blog Archives"
+msgstr ""
+
+#: wp-content\themes\neutral/archive.php:38
+#: wp-content\themes\neutral/index.php:11
+#: wp-content\themes\neutral/page-nocomment.php:18
+#: wp-content\themes\neutral/page-noside-nocomment.php:17
+#: wp-content\themes\neutral/page-noside.php:17
+#: wp-content\themes\neutral/page.php:13
+msgid "By "
+msgstr ""
+
+#: wp-content\themes\neutral/archive.php:39
+#: wp-content\themes\neutral/comments.php:117
+#: wp-content\themes\neutral/index.php:12
+#: wp-content\themes\neutral/page-nocomment-noinfo.php:15
+#: wp-content\themes\neutral/page-nocomment.php:20
+#: wp-content\themes\neutral/page-noinfo.php:15
+#: wp-content\themes\neutral/page-noside-nocomment-noinfo.php:13
+#: wp-content\themes\neutral/page-noside-nocomment.php:19
+#: wp-content\themes\neutral/page-noside-noinfo.php:13
+#: wp-content\themes\neutral/page-noside.php:19
+#: wp-content\themes\neutral/page.php:15
+msgid "[ EDIT ]"
+msgstr ""
+
+#: wp-content\themes\neutral/archive.php:42
+#: wp-content\themes\neutral/index.php:15
+#: wp-content\themes\neutral/page-nocomment-noinfo.php:17
+#: wp-content\themes\neutral/page-nocomment.php:23
+#: wp-content\themes\neutral/page-noinfo.php:17
+#: wp-content\themes\neutral/page-noside-nocomment-noinfo.php:15
+#: wp-content\themes\neutral/page-noside-nocomment.php:22
+#: wp-content\themes\neutral/page-noside-noinfo.php:15
+#: wp-content\themes\neutral/page-noside.php:22
+#: wp-content\themes\neutral/page.php:18
+msgid "Read more"
+msgstr ""
+
+#: wp-content\themes\neutral/archive.php:53
+#: wp-content\themes\neutral/comments.php:39
+#: wp-content\themes\neutral/index.php:26
+#: wp-content\themes\neutral/page-nocomment.php:19
+#: wp-content\themes\neutral/page-noside-nocomment.php:18
+#: wp-content\themes\neutral/page-noside.php:18
+#: wp-content\themes\neutral/page.php:14
+msgid "Write comment"
+msgstr ""
+
+#: wp-content\themes\neutral/archive.php:53
+#: wp-content\themes\neutral/index.php:26
+msgid "1 comment"
+msgstr ""
+
+#: wp-content\themes\neutral/archive.php:53
+#: wp-content\themes\neutral/index.php:26
+#, php-format
+msgid "% comments"
+msgstr ""
+
+#: wp-content\themes\neutral/archive.php:59
+#: wp-content\themes\neutral/index.php:32
+#: wp-content\themes\neutral/page-nocomment-noinfo.php:24
+#: wp-content\themes\neutral/page-nocomment.php:30
+#: wp-content\themes\neutral/page-noinfo.php:24
+#: wp-content\themes\neutral/page-noside-nocomment-noinfo.php:22
+#: wp-content\themes\neutral/page-noside-nocomment.php:29
+#: wp-content\themes\neutral/page-noside-noinfo.php:22
+#: wp-content\themes\neutral/page-noside.php:29
+#: wp-content\themes\neutral/page.php:25
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr ""
+
+#: wp-content\themes\neutral/comments.php:10
+#: wp-content\themes\neutral/comments.php:19
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: wp-content\themes\neutral/comments.php:41
+msgid "Comments RSS"
+msgstr ""
+
+#: wp-content\themes\neutral/comments.php:46
+msgid "Trackback"
+msgstr ""
+
+#: wp-content\themes\neutral/comments.php:47
+#: wp-content\themes\neutral/comments.php:50
+msgid "Comments"
+msgstr ""
+
+#: wp-content\themes\neutral/comments.php:49
+msgid "Trackback are closed"
+msgstr ""
+
+#: wp-content\themes\neutral/comments.php:78
+msgid "No comments yet."
+msgstr ""
+
+#: wp-content\themes\neutral/comments.php:105
+msgid "TrackBack URL"
+msgstr ""
+
+#: wp-content\themes\neutral/comments.php:120
+msgid "Trackback from : "
+msgstr ""
+
+#: wp-content\themes\neutral/comments.php:126
+msgid "No trackbacks yet."
+msgstr ""
+
+#: wp-content\themes\neutral/comments.php:141
+msgid "Comment are closed."
+msgstr ""
+
+#: wp-content\themes\neutral/comments.php:156
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: wp-content\themes\neutral/comments.php:175
+#: wp-content\themes\neutral/comments.php:177
+#, php-format
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>."
+msgstr ""
+
+#: wp-content\themes\neutral/comments.php:175
+#: wp-content\themes\neutral/comments.php:177
+msgid "Log out of this account"
+msgstr ""
+
+#: wp-content\themes\neutral/comments.php:175
+msgid "[ Log out ]"
+msgstr ""
+
+#: wp-content\themes\neutral/comments.php:177
+msgid "Log out"
+msgstr ""
+
+#: wp-content\themes\neutral/comments.php:182
+msgid "NAME"
+msgstr ""
+
+#: wp-content\themes\neutral/comments.php:182
+#: wp-content\themes\neutral/comments.php:183
+msgid "( required )"
+msgstr ""
+
+#: wp-content\themes\neutral/comments.php:183
+msgid "E-MAIL"
+msgstr ""
+
+#: wp-content\themes\neutral/comments.php:183
+msgid "- will not be published -"
+msgstr ""
+
+#: wp-content\themes\neutral/comments.php:184
+msgid "URL"
+msgstr ""
+
+#: wp-content\themes\neutral/comments.php:197
+msgid "Submit Comment"
+msgstr ""
+
+#: wp-content\themes\neutral/footer.php:4
+msgid "Theme designed by mono-lab"
+msgstr ""
+
+#: wp-content\themes\neutral/footer.php:5
+msgid "Powered by WordPress"
+msgstr ""
+
+#: wp-content\themes\neutral/footer.php:8
+msgid "Return top"
+msgstr ""
+
+#: wp-content\themes\neutral/functions.php:164
+#: wp-content\themes\neutral/functions.php:177
+msgid "Neutral Theme Options"
+msgstr ""
+
+#: wp-content\themes\neutral/functions.php:172
+msgid "Theme options have been saved."
+msgstr ""
+
+#: wp-content\themes\neutral/functions.php:181
+#: wp-content\themes\neutral/functions.php:258
+msgid "Save Changes"
+msgstr ""
+
+#: wp-content\themes\neutral/functions.php:184
+msgid "Check if you would like to use original image for logo instead of using plain text.<br />( Don't forget to upload image to, wp-content/themes/neutral/img/ )"
+msgstr ""
+
+#: wp-content\themes\neutral/functions.php:185
+#: wp-content\themes\neutral/functions.php:192
+#: wp-content\themes\neutral/functions.php:195
+#: wp-content\themes\neutral/functions.php:202
+#: wp-content\themes\neutral/functions.php:207
+#: wp-content\themes\neutral/functions.php:214
+#: wp-content\themes\neutral/functions.php:237
+#: wp-content\themes\neutral/functions.php:240
+#: wp-content\themes\neutral/functions.php:243
+#: wp-content\themes\neutral/functions.php:250
+#: wp-content\themes\neutral/functions.php:255
+msgid "Yes"
+msgstr ""
+
+#: wp-content\themes\neutral/functions.php:186
+msgid "Write your logo file name."
+msgstr ""
+
+#: wp-content\themes\neutral/functions.php:191
+msgid "Show Search area on header."
+msgstr ""
+
+#: wp-content\themes\neutral/functions.php:194
+msgid "Use <a href=\"http://www.google.com/cse/\">Google Custom Search</a><br />(If you check this option,don't forget to write your Google Custom Search ID below.)"
+msgstr ""
+
+#: wp-content\themes\neutral/functions.php:196
+msgid "Input your Google Custom Search ID."
+msgstr ""
+
+#: wp-content\themes\neutral/functions.php:201
+msgid "Show RSS button on header."
+msgstr ""
+
+#: wp-content\themes\neutral/functions.php:206
+msgid "Show Twitter button on header."
+msgstr ""
+
+#: wp-content\themes\neutral/functions.php:208
+msgid "Write your Twitter URL."
+msgstr ""
+
+#: wp-content\themes\neutral/functions.php:213
+msgid "Show Information on sidebar."
+msgstr ""
+
+#: wp-content\themes\neutral/functions.php:216
+msgid "Information title."
+msgstr ""
+
+#: wp-content\themes\neutral/functions.php:219
+msgid "Information contents. ( HTML tag is available. )"
+msgstr ""
+
+#: wp-content\themes\neutral/functions.php:224
+msgid "Header menu."
+msgstr ""
+
+#: wp-content\themes\neutral/functions.php:225
+msgid "Use pages for header menu."
+msgstr ""
+
+#: wp-content\themes\neutral/functions.php:226
+msgid "Use categories for header menu."
+msgstr ""
+
+#: wp-content\themes\neutral/functions.php:228
+msgid "Exclude Pages (Page ID's you don't want displayed in your header navigation. Use a comma-delimited list, eg. 1,2,3)"
+msgstr ""
+
+#: wp-content\themes\neutral/functions.php:231
+msgid "Exclude Categories (Category ID's you don't want displayed in your header navigation. Use a comma-delimited list, eg. 1,2,3)"
+msgstr ""
+
+#: wp-content\themes\neutral/functions.php:236
+msgid "Show author name."
+msgstr ""
+
+#: wp-content\themes\neutral/functions.php:239
+msgid "Show bread crumb at single post page."
+msgstr ""
+
+#: wp-content\themes\neutral/functions.php:242
+msgid "Show next preview post at the bottom of single post page."
+msgstr ""
+
+#: wp-content\themes\neutral/functions.php:245
+msgid "Post meta type."
+msgstr ""
+
+#: wp-content\themes\neutral/functions.php:246
+msgid "Show category."
+msgstr ""
+
+#: wp-content\themes\neutral/functions.php:247
+msgid "Show tag."
+msgstr ""
+
+#: wp-content\themes\neutral/functions.php:249
+msgid "Show time on comment."
+msgstr ""
+
+#: wp-content\themes\neutral/functions.php:254
+msgid "Check if you want to show Return top link."
+msgstr ""
+
+#: wp-content\themes\neutral/functions.php:354
+msgid " g:ia"
+msgstr ""
+
+#: wp-content\themes\neutral/functions.php:361
+#: wp-content\themes\neutral/functions.php:363
+#: wp-content\themes\neutral/functions.php:366
+msgid "REPLY"
+msgstr ""
+
+#: wp-content\themes\neutral/functions.php:368
+msgid "QUOTE"
+msgstr ""
+
+#: wp-content\themes\neutral/functions.php:369
+msgid "EDIT"
+msgstr ""
+
+#: wp-content\themes\neutral/functions.php:375
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: wp-content\themes\neutral/header.php:6
+msgid " | "
+msgstr ""
+
+#: wp-content\themes\neutral/header.php:61
+msgid "Google Search"
+msgstr ""
+
+#: wp-content\themes\neutral/header.php:64
+#: wp-content\themes\neutral/header.php:72
+msgid "Search from this blog."
+msgstr ""
+
+#: wp-content\themes\neutral/header.php:71
+msgid "Search"
+msgstr ""
+
+#: wp-content\themes\neutral/header.php:78
+msgid "RSS"
+msgstr ""
+
+#: wp-content\themes\neutral/header.php:81
+msgid "Twitter"
+msgstr ""
+
+#: wp-content\themes\neutral/header.php:87
+msgid "HOME"
+msgstr ""
+
+#: wp-content\themes\neutral/search.php:8
+msgid "Search results for "
+msgstr ""
+
+#: wp-content\themes\neutral/search.php:8
+msgid " hit"
+msgstr ""
+
+#: wp-content\themes\neutral/search.php:20
+msgid "[ READ MORE ]"
+msgstr ""
+
+#: wp-content\themes\neutral/sidebar.php:14
+msgid "RECENT ENTRY"
+msgstr ""
+
+#: wp-content\themes\neutral/sidebar.php:25
+msgid "CATEGORY"
+msgstr ""
+
+#: wp-content\themes\neutral/sidebar.php:33
+msgid "ARCHIVES"
+msgstr ""
+
+#: wp-content\themes\neutral/sidebar.php:42
+msgid "LINKS"
+msgstr ""
+
+#: wp-content\themes\neutral/single.php:23
+msgid "Posted in "
+msgstr ""
+

@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+/* *************************************************************************************
+
+   メイリオフォントに最適化したスタイルシートです。このスタイルシートを利用する場合は、
+   japanese.cssを使わないでください。
+
+************************************************************************************* */
+
+
+body { font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif; }
+
+#logo_text, #logo_text:visited { font-size:20px; margin:5px 0 0 0; display:block; }
+
+.post_content a.more-link, .post_content a.more-link:visited { line-height:34px; }
+
+.post_meta ul { padding:13px 10px 12px 25px; }
+.post_meta li { font-size:10px; }
+.post_comment { background:url(img/write_comment.gif) no-repeat left 1px; }
+.post_category { background:url(img/category_icon.gif) no-repeat 4px 1px; }
+
+#bread_crumb li { display:block; float:left; font-size:11px; line-height:140%; margin:1px 0 0 0; }
+#bread_crumb li#bc_cat { margin:1px 10px 0 0; }
+
+
+#copyright { margin:18px 0 0 55px; background:url(img/copyright.gif) no-repeat left 2px; }
+#return_top { margin:23px 55px 0 0; }
+
+/*コメント*/
+.comment-name-date { padding:2px 0 0 0; }
+.comment-act { right:22px; top:3px; }

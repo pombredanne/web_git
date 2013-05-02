@@ -1,0 +1,461 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: neutral\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-03-18 00:30+0900\n"
+"PO-Revision-Date: \n"
+"Last-Translator: mono-lab <mail@mono-lab.net>\n"
+"Language-Team: monolab <mail@monolab.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Japanese\n"
+"X-Poedit-Country: JAPAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: I:\\xampplite\\htdocs\\neutral\n"
+"X-Poedit-SearchPath-0: wp-content\\themes\\neutral\n"
+
+#: wp-content\themes\neutral/404.php:7
+msgid "Error 404 Not Found."
+msgstr ""
+
+#: wp-content\themes\neutral/archive.php:10
+#, php-format
+msgid "Archive for the &#8216;<span id=\"keyword\"> %s </span>&#8217; Category"
+msgstr "カテゴリー : <span id=\"keyword\"> %s </span>"
+
+#: wp-content\themes\neutral/archive.php:13
+#, php-format
+msgid "Posts Tagged &#8216;<span id=\"keyword\"> %s </span>&#8217;"
+msgstr "タグ : <span id=\"keyword\"> %s </span>"
+
+#: wp-content\themes\neutral/archive.php:16
+#: wp-content\themes\neutral/archive.php:19
+#: wp-content\themes\neutral/archive.php:22
+#, php-format
+msgid "Archive for &#8216;<span id=\"keyword\"> %s </span>&#8217;"
+msgstr "カテゴリー : <span id=\"keyword\"> %s </span>"
+
+#: wp-content\themes\neutral/archive.php:16
+#: wp-content\themes\neutral/archive.php:37
+#: wp-content\themes\neutral/comments.php:116
+#: wp-content\themes\neutral/functions.php:354
+#: wp-content\themes\neutral/index.php:10
+#: wp-content\themes\neutral/page-nocomment.php:17
+#: wp-content\themes\neutral/page-noside-nocomment.php:16
+#: wp-content\themes\neutral/page-noside.php:16
+#: wp-content\themes\neutral/page.php:12
+msgid "F jS, Y"
+msgstr "Y年 n月j日"
+
+#: wp-content\themes\neutral/archive.php:19
+msgid "F, Y"
+msgstr "Y年 n月"
+
+#: wp-content\themes\neutral/archive.php:22
+msgid "Y"
+msgstr "Y年"
+
+#: wp-content\themes\neutral/archive.php:25
+msgid "Author Archive"
+msgstr "投稿者アーカイブ"
+
+#: wp-content\themes\neutral/archive.php:28
+msgid "Blog Archives"
+msgstr "アーカイブ"
+
+#: wp-content\themes\neutral/archive.php:38
+#: wp-content\themes\neutral/index.php:11
+#: wp-content\themes\neutral/page-nocomment.php:18
+#: wp-content\themes\neutral/page-noside-nocomment.php:17
+#: wp-content\themes\neutral/page-noside.php:17
+#: wp-content\themes\neutral/page.php:13
+msgid "By "
+msgstr "投稿者 : "
+
+#: wp-content\themes\neutral/archive.php:39
+#: wp-content\themes\neutral/comments.php:117
+#: wp-content\themes\neutral/index.php:12
+#: wp-content\themes\neutral/page-nocomment-noinfo.php:15
+#: wp-content\themes\neutral/page-nocomment.php:20
+#: wp-content\themes\neutral/page-noinfo.php:15
+#: wp-content\themes\neutral/page-noside-nocomment-noinfo.php:13
+#: wp-content\themes\neutral/page-noside-nocomment.php:19
+#: wp-content\themes\neutral/page-noside-noinfo.php:13
+#: wp-content\themes\neutral/page-noside.php:19
+#: wp-content\themes\neutral/page.php:15
+msgid "[ EDIT ]"
+msgstr "[ 編集 ]"
+
+#: wp-content\themes\neutral/archive.php:42
+#: wp-content\themes\neutral/index.php:15
+#: wp-content\themes\neutral/page-nocomment-noinfo.php:17
+#: wp-content\themes\neutral/page-nocomment.php:23
+#: wp-content\themes\neutral/page-noinfo.php:17
+#: wp-content\themes\neutral/page-noside-nocomment-noinfo.php:15
+#: wp-content\themes\neutral/page-noside-nocomment.php:22
+#: wp-content\themes\neutral/page-noside-noinfo.php:15
+#: wp-content\themes\neutral/page-noside.php:22
+#: wp-content\themes\neutral/page.php:18
+msgid "Read more"
+msgstr "続きを読む"
+
+#: wp-content\themes\neutral/archive.php:53
+#: wp-content\themes\neutral/comments.php:39
+#: wp-content\themes\neutral/index.php:26
+#: wp-content\themes\neutral/page-nocomment.php:19
+#: wp-content\themes\neutral/page-noside-nocomment.php:18
+#: wp-content\themes\neutral/page-noside.php:18
+#: wp-content\themes\neutral/page.php:14
+msgid "Write comment"
+msgstr "コメントを書く"
+
+#: wp-content\themes\neutral/archive.php:53
+#: wp-content\themes\neutral/index.php:26
+msgid "1 comment"
+msgstr "コメント (1) "
+
+#: wp-content\themes\neutral/archive.php:53
+#: wp-content\themes\neutral/index.php:26
+#, php-format
+msgid "% comments"
+msgstr "コメント (%)"
+
+#: wp-content\themes\neutral/archive.php:59
+#: wp-content\themes\neutral/index.php:32
+#: wp-content\themes\neutral/page-nocomment-noinfo.php:24
+#: wp-content\themes\neutral/page-nocomment.php:30
+#: wp-content\themes\neutral/page-noinfo.php:24
+#: wp-content\themes\neutral/page-noside-nocomment-noinfo.php:22
+#: wp-content\themes\neutral/page-noside-nocomment.php:29
+#: wp-content\themes\neutral/page-noside-noinfo.php:22
+#: wp-content\themes\neutral/page-noside.php:29
+#: wp-content\themes\neutral/page.php:25
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr "該当する記事は見つかりませんでした。"
+
+#: wp-content\themes\neutral/comments.php:10
+#: wp-content\themes\neutral/comments.php:19
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "この投稿はパスワードで保護されています。コメントを閲覧するにはパスワードを入力してください。"
+
+#: wp-content\themes\neutral/comments.php:41
+msgid "Comments RSS"
+msgstr "コメント RSS"
+
+#: wp-content\themes\neutral/comments.php:46
+msgid "Trackback"
+msgstr "トラックバック"
+
+#: wp-content\themes\neutral/comments.php:47
+#: wp-content\themes\neutral/comments.php:50
+msgid "Comments"
+msgstr "コメント"
+
+#: wp-content\themes\neutral/comments.php:49
+msgid "Trackback are closed"
+msgstr "トラックバック　停止中"
+
+#: wp-content\themes\neutral/comments.php:78
+msgid "No comments yet."
+msgstr "コメントはまだありません。"
+
+#: wp-content\themes\neutral/comments.php:105
+msgid "TrackBack URL"
+msgstr "トラックバック URL"
+
+#: wp-content\themes\neutral/comments.php:120
+msgid "Trackback from : "
+msgstr "トラックバック先 :"
+
+#: wp-content\themes\neutral/comments.php:126
+msgid "No trackbacks yet."
+msgstr "トラックバックはまだありません。"
+
+#: wp-content\themes\neutral/comments.php:141
+msgid "Comment are closed."
+msgstr "コメント　停止中"
+
+#: wp-content\themes\neutral/comments.php:156
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "コメントするには、 <a href=\"%s\">[ ログイン ]</a> する必要があります。"
+
+#: wp-content\themes\neutral/comments.php:175
+#: wp-content\themes\neutral/comments.php:177
+#, php-format
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>."
+msgstr "<a href=\"%1$s\">%2$s</a> としてログインしています。"
+
+#: wp-content\themes\neutral/comments.php:175
+#: wp-content\themes\neutral/comments.php:177
+msgid "Log out of this account"
+msgstr "このアカウントからログアウトする。"
+
+#: wp-content\themes\neutral/comments.php:175
+msgid "[ Log out ]"
+msgstr "[ ログアウト ]"
+
+#: wp-content\themes\neutral/comments.php:177
+msgid "Log out"
+msgstr "ログアウト"
+
+#: wp-content\themes\neutral/comments.php:182
+msgid "NAME"
+msgstr "名前"
+
+#: wp-content\themes\neutral/comments.php:182
+#: wp-content\themes\neutral/comments.php:183
+msgid "( required )"
+msgstr "( 必須 )"
+
+#: wp-content\themes\neutral/comments.php:183
+msgid "E-MAIL"
+msgstr "メールアドレス"
+
+#: wp-content\themes\neutral/comments.php:183
+msgid "- will not be published -"
+msgstr "- 公開されません -"
+
+#: wp-content\themes\neutral/comments.php:184
+msgid "URL"
+msgstr "URL"
+
+#: wp-content\themes\neutral/comments.php:197
+msgid "Submit Comment"
+msgstr "コメントを送信する"
+
+#: wp-content\themes\neutral/footer.php:4
+msgid "Theme designed by mono-lab"
+msgstr ""
+
+#: wp-content\themes\neutral/footer.php:5
+msgid "Powered by WordPress"
+msgstr ""
+
+#: wp-content\themes\neutral/footer.php:8
+msgid "Return top"
+msgstr ""
+
+#: wp-content\themes\neutral/functions.php:164
+#: wp-content\themes\neutral/functions.php:177
+msgid "Neutral Theme Options"
+msgstr "neutral オプション設定"
+
+#: wp-content\themes\neutral/functions.php:172
+msgid "Theme options have been saved."
+msgstr "オプションは更新されました。"
+
+#: wp-content\themes\neutral/functions.php:181
+#: wp-content\themes\neutral/functions.php:258
+msgid "Save Changes"
+msgstr "情報を更新する"
+
+#: wp-content\themes\neutral/functions.php:184
+msgid "Check if you would like to use original image for logo instead of using plain text.<br />( Don't forget to upload image to, wp-content/themes/neutral/img/ )"
+msgstr "ブログのタイトルに画像を使いたい場合は、下にチェックを入れてください。<br />注意：必ず画像を、wp-content/themes/neutral/img/ にアップロードし、下にアップロードした画像名をご記入ください。"
+
+#: wp-content\themes\neutral/functions.php:185
+#: wp-content\themes\neutral/functions.php:192
+#: wp-content\themes\neutral/functions.php:195
+#: wp-content\themes\neutral/functions.php:202
+#: wp-content\themes\neutral/functions.php:207
+#: wp-content\themes\neutral/functions.php:214
+#: wp-content\themes\neutral/functions.php:237
+#: wp-content\themes\neutral/functions.php:240
+#: wp-content\themes\neutral/functions.php:243
+#: wp-content\themes\neutral/functions.php:250
+#: wp-content\themes\neutral/functions.php:255
+msgid "Yes"
+msgstr "はい"
+
+#: wp-content\themes\neutral/functions.php:186
+msgid "Write your logo file name."
+msgstr "画像の名前"
+
+#: wp-content\themes\neutral/functions.php:191
+msgid "Show Search area on header."
+msgstr "ヘッダーに検索ボックスを表示する。"
+
+#: wp-content\themes\neutral/functions.php:194
+msgid "Use <a href=\"http://www.google.com/cse/\">Google Custom Search</a><br />(If you check this option,don't forget to write your Google Custom Search ID below.)"
+msgstr "Googleカスタム検索を利用する。<br />利用する場合は、右のアドレスよりGoogleカスタム検索IDを取得してください。 <a href=\"http://www.google.com/cse/\">Googleカスタム検索</a>"
+
+#: wp-content\themes\neutral/functions.php:196
+msgid "Input your Google Custom Search ID."
+msgstr "あなたの、Googleカスタム検索IDを入力してください。"
+
+#: wp-content\themes\neutral/functions.php:201
+msgid "Show RSS button on header."
+msgstr "ヘッダーにRSSボタンを表示する。"
+
+#: wp-content\themes\neutral/functions.php:206
+msgid "Show Twitter button on header."
+msgstr "ヘッダーにツイッターボタンを表示する。"
+
+#: wp-content\themes\neutral/functions.php:208
+msgid "Write your Twitter URL."
+msgstr "あなたのツイッターURLを入力してください。"
+
+#: wp-content\themes\neutral/functions.php:213
+msgid "Show Information on sidebar."
+msgstr "右サイドにインフォメーションを表示する。"
+
+#: wp-content\themes\neutral/functions.php:216
+msgid "Information title."
+msgstr "インフォメーションのタイトル。"
+
+#: wp-content\themes\neutral/functions.php:219
+msgid "Information contents. ( HTML tag is available. )"
+msgstr "インフォメーションの内容。（HTMLタグの利用可）"
+
+#: wp-content\themes\neutral/functions.php:224
+msgid "Header menu."
+msgstr "ヘッダーメニューの種類。"
+
+#: wp-content\themes\neutral/functions.php:225
+msgid "Use pages for header menu."
+msgstr "ページを利用する。"
+
+#: wp-content\themes\neutral/functions.php:226
+msgid "Use categories for header menu."
+msgstr "カテゴリーを利用する。"
+
+#: wp-content\themes\neutral/functions.php:228
+msgid "Exclude Pages (Page ID's you don't want displayed in your header navigation. Use a comma-delimited list, eg. 1,2,3)"
+msgstr "ヘッダーメニューに表示したくないページ<br />（ページのＩＤを半角数字で記入してください。複数有る場合は、カンマ「,」で区切ってください。記入例： 1,2,3 ）<br />注意：一番最後の数字の後にはカンマを入れないでください。"
+
+#: wp-content\themes\neutral/functions.php:231
+msgid "Exclude Categories (Category ID's you don't want displayed in your header navigation. Use a comma-delimited list, eg. 1,2,3)"
+msgstr "ヘッダーメニューに表示したくないカテゴリー<br />（ページのＩＤを半角数字で記入してください。複数有る場合は、カンマ「,」で区切ってください。記入例： 1,2,3 ）<br />注意：一番最後の数字の後にはカンマを入れないでください。"
+
+#: wp-content\themes\neutral/functions.php:236
+msgid "Show author name."
+msgstr "投稿者を表示する。"
+
+#: wp-content\themes\neutral/functions.php:239
+msgid "Show bread crumb at single post page."
+msgstr "シングルページにパンくずリンクを表示する。"
+
+#: wp-content\themes\neutral/functions.php:242
+msgid "Show next preview post at the bottom of single post page."
+msgstr "次の記事、前の記事をシングルページの下部に表示する。"
+
+#: wp-content\themes\neutral/functions.php:245
+msgid "Post meta type."
+msgstr "投稿記事の下に表示するmetaの種類。"
+
+#: wp-content\themes\neutral/functions.php:246
+msgid "Show category."
+msgstr "カテゴリーを表示する。"
+
+#: wp-content\themes\neutral/functions.php:247
+msgid "Show tag."
+msgstr "タグを表示する。"
+
+#: wp-content\themes\neutral/functions.php:249
+msgid "Show time on comment."
+msgstr "コメントに時間を表示する。"
+
+#: wp-content\themes\neutral/functions.php:254
+msgid "Check if you want to show Return top link."
+msgstr "右下に「ページ上部へ移動する」を表示する。"
+
+#: wp-content\themes\neutral/functions.php:354
+msgid " g:ia"
+msgstr ""
+
+#: wp-content\themes\neutral/functions.php:361
+#: wp-content\themes\neutral/functions.php:363
+#: wp-content\themes\neutral/functions.php:366
+msgid "REPLY"
+msgstr "返信"
+
+#: wp-content\themes\neutral/functions.php:368
+msgid "QUOTE"
+msgstr "引用"
+
+#: wp-content\themes\neutral/functions.php:369
+msgid "EDIT"
+msgstr "編集"
+
+#: wp-content\themes\neutral/functions.php:375
+msgid "Your comment is awaiting moderation."
+msgstr "あなたのコメントは管理人の承認待ちです。（ あなた以外の人には表示されていません。 ）"
+
+#: wp-content\themes\neutral/header.php:6
+msgid " | "
+msgstr ""
+
+#: wp-content\themes\neutral/header.php:61
+msgid "Google Search"
+msgstr "Google Search"
+
+#: wp-content\themes\neutral/header.php:64
+#: wp-content\themes\neutral/header.php:72
+msgid "Search from this blog."
+msgstr "ブログ内検索"
+
+#: wp-content\themes\neutral/header.php:71
+msgid "Search"
+msgstr "検索キーワード"
+
+#: wp-content\themes\neutral/header.php:78
+msgid "RSS"
+msgstr "RSS"
+
+#: wp-content\themes\neutral/header.php:81
+msgid "Twitter"
+msgstr "Twitter"
+
+#: wp-content\themes\neutral/header.php:87
+msgid "HOME"
+msgstr "ホーム"
+
+#: wp-content\themes\neutral/search.php:8
+msgid "Search results for "
+msgstr "検索結果 : "
+
+#: wp-content\themes\neutral/search.php:8
+msgid " hit"
+msgstr "件"
+
+#: wp-content\themes\neutral/search.php:20
+msgid "[ READ MORE ]"
+msgstr "[ 続きを読む]"
+
+#: wp-content\themes\neutral/sidebar.php:14
+msgid "RECENT ENTRY"
+msgstr "RECENT ENTRY"
+
+#: wp-content\themes\neutral/sidebar.php:25
+msgid "CATEGORY"
+msgstr "CATEGORY"
+
+#: wp-content\themes\neutral/sidebar.php:33
+msgid "ARCHIVES"
+msgstr "ARCHIVES"
+
+#: wp-content\themes\neutral/sidebar.php:42
+msgid "LINKS"
+msgstr "LINKS"
+
+#: wp-content\themes\neutral/single.php:23
+msgid "Posted in "
+msgstr "カテゴリー : "
+
+#~ msgid "Nuetral Theme Options"
+#~ msgstr "neutral オプション設定"
+
+#~ msgid "Page top"
+#~ msgstr "Page Top"
+
+#~ msgid "Archive for <span id=\"keyword\">%s</span>"
+#~ msgstr "アーカイブ　：　<span id=\"keyword\">%s</span>"
+
+#~ msgid "neutral option"
+#~ msgstr "neutral オプション"
+
+#~ msgid "Use Pager."
+#~ msgstr "デフォルト"

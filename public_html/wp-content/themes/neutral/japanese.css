@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+body { font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','ＭＳ Ｐゴシック',sans-serif; }
+
+#logo_text, #logo_text:visited { font-size:21px; line-height:90%; display:block; margin:13px 0 0 0; font-family:'メイリオ',Meiryo,'ＭＳ Ｐゴシック'; }
+#description { font-weight:normal; line-height:100%; margin:5px 0 0 0; padding:0; color:#aaa; font-size:11px; }
+
+#header_rss { font-size:12px; }
+#header_twitter { font-size:12px; }
+#search_input { line-height:140%; }
+
+.post_content a.more-link, .post_content a.more-link:visited  { height:30px; padding:2px 0 0 40px; }
+
+.post_meta ul { padding:14px 10px 11px 25px; }
+.post_comment { background:url(img/write_comment.gif) no-repeat left 1px; }
+.post_category { background:url(img/category_icon.gif) no-repeat 4px 1px; }
+
+#bread_crumb li { margin:2px 0 0 0; }
+#bc_home a { margin:3px 0 0 0; }
+#bread_crumb li#bc_cat { margin:2px 10px 0 0; background:url(img/arrow6.gif) no-repeat right 3px; }
+
+#previous_next_post #previous_post a { padding:9px 0 10px 40px; }
+#previous_next_post #next_post a { padding:9px 40px 10px 0; }
+
+.page_navi a, .page_navi a:visited, .page_navi a:hover, .page_navi span.current,
+.page_navi span.pages, .page_navi span.extend, .page_navi span.current, .page_navi span.dots
+   { padding:2px 0 0 0; height:28px; }
+
+#copyright li { padding:7px 0 5px 13px; }
+#return_top { margin:27px 55px 0 0; }
+
+#search_result p,#archive_headline p { padding:11px 10px 9px 30px; }
+
+/*右サイド*/
+#wp-calendar td a, #wp-calendar td a:visited { background:url(img/calendar2.gif) no-repeat center top; }
+#wp-calendar td a:hover { background:url(img/calendar3.gif) no-repeat center top; }
+#wp-calendar td#today { background:url(img/calendar1.gif) no-repeat center top; }
+
+/*グローバルナビ*/
+ul.menu a, ul.menu a:visited { line-height:43px; position:relative; top:7px; }
+ul.menu ul { top:46px; }
+ul.menu ul a, ul.menu ul a:visited { padding:13px 30px 9px; }
+
+/*コメントページ*/
+#add_comment a { background:url(img/write_comment.gif) no-repeat left top; padding:2px 0 0 20px; }
+#comment_feed a { background:url(img/comment_rss.gif) no-repeat left top; padding:2px 0 0 20px; }
+
+.comment-name-date { padding:8px 0 0 0; }
+.comment-act { background:url(img/arrow2.gif) no-repeat left 2px; top:10px; }
