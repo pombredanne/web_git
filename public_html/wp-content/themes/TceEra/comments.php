@@ -19,7 +19,7 @@
 <!-- You can start editing here. -->
 <?php if ($comments) : ?>
 	<?php $comments = array_reverse($comments) ?>
-	<h3 id="comments"><?php comments_number('赶紧抢沙发', '1个评论', '已有%位云友发布了激情的评论' );?></h3>
+	<h3 id="comments"><?php comments_number('赶紧抢沙发', '1个评论', '已有%位网友表达了见解' );?></h3>
 	<ol class="commentlist">
 		<?php wp_list_comments('callback=custom_comment');?>
 	</ol>

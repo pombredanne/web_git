@@ -1,1 +1,1 @@
-document.write("更多精彩，请继续关注和支持云时代！云时代因你而精彩!");
+document.write("请继续关注和支持nixlong.com!");

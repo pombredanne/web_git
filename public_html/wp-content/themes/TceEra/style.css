@@ -933,14 +933,15 @@ _white-space:nowrap;
    margin:0px auto;
    text-align:center;
 }
+/*文章后面2个300px等大小的广告,换成左边590，右边10,相当于不要右边*/
 #enrty_con_ads #enrty_con_left {
-   width:300px;
+   width:590px;
    height:250px;
    float:left;
    overflow:hidden;
 }
 #enrty_con_ads #enrty_con_right {
-   width:300px;
+   width:10px;
    height:250px;
    float:right;
    overflow:hidden;

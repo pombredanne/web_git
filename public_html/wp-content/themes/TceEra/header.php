@@ -111,7 +111,7 @@ if ( is_single() ){
 <div id="nav">
    <ul id="dropmenu" class="navi">
         <li <?php if ( is_home()){ echo ' class="cat-item current-cat" '; } ?>><a href="<?php echo get_option('home'); ?>/" class="png"><span class="png">首页</span></a></li>
-			<?php echo preg_replace('@\<li([^>]*)>\<a([^>]*)>(.*?)\<\/a>@i', '<li$1><a$2><span class="png">$3</span></a>', wp_list_categories('echo=0&orderby=id&title_li=&depth=2&hide_empty=0')); ?>
+			<?php echo preg_replace('@\<li([^>]*)>\<a([^>]*)>(.*?)\<\/a>@i', '<li$1><a$2><span class="png">$3</span></a>', wp_list_categories('echo=0&title_li=&depth=2&hide_empty=1')); ?>
         </ul>
 </div><!--nav-->
 
