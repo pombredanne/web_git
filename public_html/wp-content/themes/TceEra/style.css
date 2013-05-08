@@ -442,28 +442,30 @@ background:url(images/bwg2.jpg) 0px 0px no-repeat;
 .i_list a:hover {text-decoration:underline;}
 .i_list h2 {
 
-   width:610px;
+   width:650px;
    font-size:0.95em;
    font-weight:600;
    float:right;
-   text-indent:10px;
-
+   text-indent:18px;   
 
 }
 
 .i_list h2 a {
    color:#1ba1e2;
-   width:600px;height:39px;
-   border-left:3px solid #23a0da;border-bottom:1px solid #ececec;
+   width:650px;height:39px;
+   border-left:0px solid #23a0da;border-bottom:1px solid #ececec;
    display:block;
    line-height:18px;
    margin-top:10px;
    overflow:hidden;
-   padding-left:4px;
+   padding-left:0px;
+   background:url(images/Cube.png) no-repeat;   
+   background-position: left top;
 }
 
 .i_list h2 a:hover {text-decoration:underline;
-
+   background:url(images/Cube.png) no-repeat;   
+   background-position: left top;
 
 }
 
@@ -479,6 +481,7 @@ background:url(images/bwg2.jpg) 0px 0px no-repeat;
 
 }
 
+.i_date_title {padding-left:18px;background:url(images/Cube.png) 0px 5px no-repeat;}
 .i_date_author {padding-left:18px;background:url(images/sbg.png)   -280px -399px no-repeat;
 _background:url(images/zuozhe.png)  left no-repeat;}
 .i_date_category {padding-left:18px;background:url(images/sbg.png) -282px -49px  no-repeat;

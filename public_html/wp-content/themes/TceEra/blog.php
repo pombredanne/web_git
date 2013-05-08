@@ -70,16 +70,12 @@
 	<?php if (have_posts()) : ?>
 	<?php while (have_posts()) : the_post(); ?>  
  <ul class="i_list"  <?php post_class(); ?> id="post-<?php the_ID(); ?>">
-        <div class="i_left_date">
-		   <span><?php the_time('m') ?>  <?php the_time('d') ?> </span><br/>
-		   <span><?php the_time('Y') ?> </span><br/>
-		</div> 
-		<h2><a  href="<?php the_permalink() ?>" rel="bookmark" title="<?php printf(__('Permanent Link to %s', 'kubrick'), the_title_attribute('echo=0')); ?>" target="_blank" ><?php echo mb_strimwidth(get_the_title(), 0, 100,"…") ?></a>
-		</h2>
+
+		<h2><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php printf(__('Permanent Link to %s', 'kubrick'), the_title_attribute('echo=0')); ?>" target="_blank" ><?php echo mb_strimwidth(get_the_title(), 0, 100,"…") ?></a></h2>
 		
 
 		<li class="i_img">
-							<?php
+						<?php
 							if ( (function_exists('has_post_thumbnail')) && (has_post_thumbnail()) ) {
 						?>
 							<a href="<?php the_permalink() ?>" title="<?php the_title(); ?>" ><?php the_post_thumbnail( 'thumbnail', array('class' => 'post-thumbnail')); ?></a>
@@ -89,13 +85,12 @@
                             </a>
                         <?php } ?>
 
-         </li>
+        </li>
        <li class="i_date">
-		   <span class="i_date_author"> <?php the_author() ?></span>
+		   <span class="i_date_author"> <?php the_author() ?> 发布于 <?php the_time('Y年m月d日') ?></span>
 		   <span class="i_date_category">  <?php the_category(', ') ?></span>
 		   <span class="i_date_views"> 热度 <?php if(function_exists('the_views')) { the_views(); print '℃';  } ?></span>
            <span class="i_date_comments"> <?php comments_popup_link('暂无评论', '评论数 1', '评论数 %'); ?></span>
-		 
 	  </li>
 		<li class="i_text" ><?php if (has_excerpt())
 						{ ?> 
