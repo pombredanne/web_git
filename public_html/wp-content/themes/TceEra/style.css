@@ -459,12 +459,12 @@ background:url(images/bwg2.jpg) 0px 0px no-repeat;
    margin-top:10px;
    overflow:hidden;
    padding-left:0px;
-   background:url(images/Cube.png) no-repeat;   
+   background:url(images/logo_wolf.png) no-repeat;   
    background-position: left top;
 }
 
 .i_list h2 a:hover {text-decoration:underline;
-   background:url(images/Cube.png) no-repeat;   
+   background:url(images/logo_wolf.png) no-repeat;   
    background-position: left top;
 
 }
@@ -481,7 +481,6 @@ background:url(images/bwg2.jpg) 0px 0px no-repeat;
 
 }
 
-.i_date_title {padding-left:18px;background:url(images/Cube.png) 0px 5px no-repeat;}
 .i_date_author {padding-left:18px;background:url(images/sbg.png)   -280px -399px no-repeat;
 _background:url(images/zuozhe.png)  left no-repeat;}
 .i_date_category {padding-left:18px;background:url(images/sbg.png) -282px -49px  no-repeat;
