@@ -633,19 +633,17 @@ text-decoration:underline;
 
 
  .c_list .imgg {
-
-     width:204px;
-     height:130px;
-     line-height:130px;
-     text-align:center;
-
-
-   border:2px solid #333;
-     border-left:1px solid #ddd;
-     border-right:1px solid #ddd;
-   float:left;
-   margin-top:8px;
-   overflow:hidden;
+      
+    width:204px;
+    height:145px;
+    line-height:155px;
+    text-align:center;
+    border:2px solid #333;
+    border-left:1px solid #ddd;
+    border-right:1px solid #ddd;
+    float:left;
+    margin:2px 2px 0px 2px;
+    overflow:hidden;
 }
 
 
@@ -657,7 +655,7 @@ text-decoration:underline;
       }
      .imgg img{
 	    max-width:204px;
-		max-height:130px;
+		max-height:145px;
         vertical-align:middle
 
       }
