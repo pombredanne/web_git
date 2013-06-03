@@ -404,6 +404,17 @@ if ( ! CUSTOM_TAGS ) {
 		'a' => array(
 			'href' => array (),
 			'title' => array ()),
+	    'img' => array(
+            'alt' => array (),
+            'align' => array (),
+            'border' => array (),
+            'class' => array (),
+            'height' => array (),
+            'hspace' => array (),
+            'longdesc' => array (),
+            'vspace' => array (),
+            'src' => array (),
+            'width' => array ()),
 		'abbr' => array(
 			'title' => array ()),
 		'acronym' => array(
