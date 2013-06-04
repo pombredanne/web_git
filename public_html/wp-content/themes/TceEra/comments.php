@@ -58,49 +58,54 @@
 <?php if ('open' == $post->comment_status) : ?>
 <!-- Add Comment begin -->
 
-    <?php if ( 403 == $post->ID ) : //微言界面?>    
+    <?php if ( 403 == $post->ID ) : //微言界面?>            
         <?php if ( is_user_logged_in() ) : ?>
             <div id="respond">
-            	<h3 id="addcomment">发表评论</h3>
-                <div class="clear"></div>
-            	<div id="cancel-comment-reply"><?php cancel_comment_reply_link('取消回复') ?></div>
-            
-                <form action="<?php echo get_option('siteurl'); ?>/wp-comments-post.php" method="post" id="commentform">    
-                    <?php if ( $user_ID ) : ?>
-                        <p>您现在是以 <a href="<?php echo get_option('siteurl'); ?>/wp-admin/profile.php"><?php echo $user_identity; ?></a> 的身份登录,<a href="<?php echo wp_logout_url(get_permalink()) ?>" title="退出系统"> 点击退出系统 &raquo;</a></p>   
-                    <?php else : ?>
-                        <div class="clear"></div>
-                            <p class="inputtext"><input type="text" name="author" id="author" value="<?php echo $comment_author; ?>" size="22" tabindex="1" /> 您的昵称 <em> <span class="colors">* </span>(必填哦，方便大家记住你:）) </em></p>
-                            <p class="inputtext"><input type="text" name="email" id="email" value="<?php echo $comment_author_email; ?>" size="22" tabindex="2" /> 您的邮箱 <em><span class="colors">* </span> (必填哦，不会泄露:）)</em></p>
-                            <p class="inputtext"><input type="text" name="url" id="url" value="<?php echo $comment_author_url; ?>" size="22" tabindex="3" /> 您的网站 <em> (选填，可以让更多人认识你:）)</em></p>
-                    <?php endif; ?>
-                        <!--<p><small><strong>XHTML:</strong> You can use these tags: <code><?php echo allowed_tags(); ?></code></small></p>-->
-                        <p><textarea name="comment" id="comment" tabindex="4"></textarea></p>
-                        
-                        <p><input name="submit" type="submit" id="submit" tabindex="5" value="(Shift + Enter)写好了，发出去!" /><?php comment_id_fields(); ?></p>
+                <div id="response" class="respond-in">
+                	<h3 id="addcomment">发表评论</h3>
+                    <div class="clear"></div>
+                	<div id="cancel-comment-reply"><?php cancel_comment_reply_link('取消回复') ?></div>
                 
-                        <?php do_action('comment_form', $post->ID); ?>    
-                </form>    
+                    <form action="<?php echo get_option('siteurl'); ?>/wp-comments-post.php" method="post" id="commentform">    
+                        <?php if ( is_user_logged_in() ) : ?>
+                            <p>您现在是以 <a href="<?php echo get_option('siteurl'); ?>/wp-admin/profile.php"><?php echo $user_identity; ?></a> 的身份登录,<a href="<?php echo wp_logout_url(get_permalink()) ?>" title="退出系统"> 点击退出系统 &raquo;</a></p>   
+                        <?php else : ?>
+                            <div class="clear"></div>
+                            <p class="inputtext"><input type="text" name="author" id="author" onkeypress="return noenter(event)" value="<?php echo $comment_author; ?>" size="22" tabindex="1" /> 您的昵称 <em> <span class="colors">* </span>(必填哦，方便大家记住你:）) </em></p>
+                            <p class="inputtext"><input type="text" name="email" id="email" onkeypress="return noenter(event)" value="<?php echo $comment_author_email; ?>" size="22" tabindex="2" /> 您的邮箱 <em><span class="colors">* </span> (必填哦，方便邮件通知:）)</em></p>
+                            <p class="inputtext"><input type="text" name="url" id="url" onkeypress="return noenter(event)" value="<?php echo $comment_author_url; ?>" size="22" tabindex="3" /> 您的网站 <em> (选填，可以让更多人认识你:）)</em></p>
+                        <?php endif; ?>
+                            
+                        <!--<p><small><strong>XHTML:</strong> You can use these tags: <code><?php echo allowed_tags(); ?></code></small></p>-->
+                        <p>
+                            <textarea name="comment" id="comment" tabindex="4"></textarea>
+                            <?php include(TEMPLATEPATH . '/smiley.php'); ?>
+                        </p>
+                        <p><input name="submit" type="submit" id="submit" tabindex="5" value="(Shift + Enter)写好了，发出去!" /><?php comment_id_fields(); ?></p>        
+                        <?php do_action('comment_form', $post->ID); ?>   
+                    </form>    
+                </div>    
             </div>
         <?php else : ?>
         
         <?php endif; ?>   
+
     <?php else : //其他非微言界面?>
         <div id="respond">
         	<h3 id="addcomment">发表评论</h3>
             <div class="clear"></div>
         	<div id="cancel-comment-reply"><?php cancel_comment_reply_link('取消回复') ?></div>
         
-        <?php if ( get_option('comment_registration') && !$user_ID ) : ?>
+        <?php if ( get_option('comment_registration') && !is_user_logged_in() ) : ?>
             <p>你必须 <a href="<?php echo get_option('siteurl'); ?>/wp-login.php?redirect_to=<?php echo urlencode(get_permalink()); ?>">登录后</a> 才能留言！</p>
         <?php else : ?>    
             <form action="<?php echo get_option('siteurl'); ?>/wp-comments-post.php" method="post" id="commentform">    
-                <?php if ( $user_ID ) : ?>
+                <?php if ( is_user_logged_in() ) : ?>
                     <p>您现在是以 <a href="<?php echo get_option('siteurl'); ?>/wp-admin/profile.php"><?php echo $user_identity; ?></a> 的身份登录,<a href="<?php echo wp_logout_url(get_permalink()) ?>" title="退出系统"> 点击退出系统 &raquo;</a></p>   
                 <?php else : ?>
                     <div class="clear"></div>
                         <p class="inputtext"><input type="text" name="author" id="author" value="<?php echo $comment_author; ?>" size="22" tabindex="1" /> 您的昵称 <em> <span class="colors">* </span>(必填哦，方便大家记住你:）) </em></p>
-                        <p class="inputtext"><input type="text" name="email" id="email" value="<?php echo $comment_author_email; ?>" size="22" tabindex="2" /> 您的邮箱 <em><span class="colors">* </span> (必填哦，不会泄露:）)</em></p>
+                        <p class="inputtext"><input type="text" name="email" id="email" value="<?php echo $comment_author_email; ?>" size="22" tabindex="2" /> 您的邮箱 <em><span class="colors">* </span> (必填哦，方便邮件通知:）)</em></p>
                         <p class="inputtext"><input type="text" name="url" id="url" value="<?php echo $comment_author_url; ?>" size="22" tabindex="3" /> 您的网站 <em> (选填，可以让更多人认识你:）)</em></p>
                 <?php endif; ?>
                     <!--<p><small><strong>XHTML:</strong> You can use these tags: <code><?php echo allowed_tags(); ?></code></small></p>-->
