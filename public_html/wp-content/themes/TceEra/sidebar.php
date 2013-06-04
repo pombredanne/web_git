@@ -7,8 +7,25 @@
 		
 	</div>
 	   <ul>
+	   
+	   <?php $page_ID=403; //填写页面ID ?>
+	   <li class="li_box">	
+            <div class="widget">
+                <h3>MicroSay::微言</h3>
+                <div>
+                <ul class="inul tagicon">
+                    <?php $comments = get_comments("number=1&post_id=$page_ID"); 
+                          $announcement = $comments[0]->comment_content;
+                          if ($announcement) echo $announcement; else echo '欢迎光临nixlong.com！';
+                    ?>        
+                    <?php if ($user_ID) echo '<br>[<a href="'. get_page_link($page_ID). '#respond" rel="nofollow" class="anno">发表微言</a>]'; 
+                          else          echo '<br>[<a href="'. get_page_link($page_ID). '">更多微言...</a>]' ?>
+                </ul>
+                </div>
+            </div>
+        </li>
 
-	   <li class="li_box">
+	    <li class="li_box">
 	    
 		<h3 class="green">热门标签</h3>
 	    
@@ -93,7 +110,7 @@
 
                 WHERE comment_approved = '1' AND comment_type = '' AND
 
-                post_password = ''
+                post_password = '' AND comment_author != 'nix'
 
                 ORDER BY comment_date_gmt DESC
 
