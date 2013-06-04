@@ -59,9 +59,7 @@
 <!-- Add Comment begin -->
 
     <?php if ( 403 == $post->ID ) : //微言界面?>    
-        <?php if ( (!$user_ID) ) : ?>
-            
-        <?php else : ?>
+        <?php if ( is_user_logged_in() ) : ?>
             <div id="respond">
             	<h3 id="addcomment">发表评论</h3>
                 <div class="clear"></div>
@@ -78,11 +76,14 @@
                     <?php endif; ?>
                         <!--<p><small><strong>XHTML:</strong> You can use these tags: <code><?php echo allowed_tags(); ?></code></small></p>-->
                         <p><textarea name="comment" id="comment" tabindex="4"></textarea></p>
+                        
                         <p><input name="submit" type="submit" id="submit" tabindex="5" value="(Shift + Enter)写好了，发出去!" /><?php comment_id_fields(); ?></p>
                 
                         <?php do_action('comment_form', $post->ID); ?>    
                 </form>    
             </div>
+        <?php else : ?>
+        
         <?php endif; ?>   
     <?php else : //其他非微言界面?>
         <div id="respond">
