@@ -14,9 +14,14 @@
                 <h3>MicroSay::微言</h3>
                 <div>
                 <ul class="inul">
-                    <?php $comments = get_comments("number=1&post_id=$page_ID"); 
-                          $announcement = $comments[0]->comment_content;
-                          if ($announcement) echo mb_strimwidth($announcement, 0, 300,"…"); else echo '欢迎光临nixlong.com！';
+                    <?php 
+                        $args = array(
+                        	'number' => 1,
+                        	'post_id' => page_ID, // use post_id, not post_ID
+                        );
+                        $comments = get_comments($args); 
+                        $announcement = $comments[0]->comment_content;
+                        if ($announcement) echo mb_strimwidth($announcement, 0, 300,"…"); else echo '欢迎光临nixlong.com！';
                     ?>        
                 </ul>
                 <ul class="inul tagicon" >

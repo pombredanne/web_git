@@ -13,7 +13,6 @@
     <li> 2012-2013 COPYRIGHT BY  <?php bloginfo('name'); ?> </li>
   </ol>
  </div>
-
 </div><!--footer_left-->
 
 

@@ -59,7 +59,8 @@
 <!-- Add Comment begin -->
 
     <?php if ( 403 == $post->ID ) : //微言界面?>            
-        <?php if ( is_user_logged_in() ) : ?>
+        <?php $var = $_SERVER["QUERY_STRING"] ; ?>
+        <?php if ( is_user_logged_in() || (strstr($var,"replytocom=") != false) ) : ?>
             <div id="respond">
                 <div id="response" class="respond-in">
                 	<h3 id="addcomment">发表评论</h3>
